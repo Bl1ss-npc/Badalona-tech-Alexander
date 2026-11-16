@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.capcalera {
+    background: linear-gradient(90deg, #06417f, #0754a0);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 35px;
+    gap: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.separador {
+    height: 45px;
+    width: 2px;
+    background-color: #8bb3d9;
+}
+
+.titol {
+    flex: 1;
+}
+
+.titol h1 {
+    font-size: 21px;
+    margin-bottom: 3px;
+}
+
+.titol p {
+    font-size: 13px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px 14px;
+    border-radius: 6px;
+}
+
+nav a.actiu {
+    background-color: #2196ed;
+}
